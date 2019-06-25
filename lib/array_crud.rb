@@ -14,7 +14,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
- array = ["I", "am", "really", "learning"]
+  array = ["I", "am", "really", "learning"]
     element = "wow"
     array.unshift element
 end
@@ -26,7 +26,9 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
- 
+
+ array = ["I", "am", "really", "learning", "arrays!"]
+    array.unshift element
 end
 
 def retrieve_element_from_index(array, index_number)
